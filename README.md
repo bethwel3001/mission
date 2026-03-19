@@ -59,13 +59,14 @@ The splash image is located at assets/screens/image.png. To change it, replace t
 ## Troubleshooting
 - Splash screen not showing: Ensure the image path in app.json is correct and run expo start --clear to reset the cache.
 - Dependency errors: Run npx expo install <package-name> to install compatible versions.
-- Build issues: [Refer to Expo documentation.o](https://expo.dev/)
+- Build issues: [Refer to Expo documentation](https://expo.dev/)
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-## License
-NOT YET
 ## Check the web app 
 
- [EcoMission] (eco-mission.vercel.app)
+- Website: [EcoMission](https://eco-mission.vercel.app/)
+
+## License
+NOT YET
