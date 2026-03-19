@@ -45,3 +45,27 @@ Eco-Mission is a mobile application that gamifies sustainable energy habits. It 
    npx expo start
    ```
 
+## Configuration
+- Splash Screen
+The splash image is located at assets/screens/image.png. To change it, replace the file and update the path in app.json under the splash key if necessary.
+- Environment Variables
+(If you later add backend services, create a .env file and use expo-constants to access them.)
+
+## Customisation
+- Change the planet image: Replace the image URL in HomeScreen.js with your own asset.
+- Modify mission data: Edit data/missions.js to add, remove, or update missions.
+- Adjust tab bar style: Tweak intensity and tint in CustomTabBar.js.
+
+## Troubleshooting
+- Splash screen not showing: Ensure the image path in app.json is correct and run expo start --clear to reset the cache.
+- Dependency errors: Run npx expo install <package-name> to install compatible versions.
+- Build issues: [Refer to Expo documentation.o](https://expo.dev/)
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+## License
+NOT YET
+## Check the web app 
+
+ [EcoMission] (eco-mission.vercel.app)
